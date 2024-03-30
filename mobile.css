@@ -35,3 +35,20 @@ nav {
     width: 50%;
     height: 100vh;
 }
+
+#clicked .on {
+    display: block;
+}
+#clicked .off {
+    display: none;
+}
+#clicked:target .on {
+    display: none;
+}
+#clicked:target .off {
+    display: block;
+}
+#clicked:target nav {
+    display: none;
+}
+
