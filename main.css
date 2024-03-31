@@ -58,6 +58,7 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    text-align: center;
 }
 
 form {
@@ -87,4 +88,24 @@ textarea {
 }
 button {
     margin-left: 0.5em;
+}
+
+nav > ul > li {
+    position: relative;
+    width: 100%;
+}
+
+nav ul ul {
+    position: absolute;
+    display: none;
+    background-color: #D1E891;
+    width: 100%;
+}
+
+nav > ul > li:hover ul {
+    display: block;
+}
+
+nav ul ul li:hover {
+    background-color: #AA7B62;
 }

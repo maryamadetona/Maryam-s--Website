@@ -33,7 +33,7 @@ header {
 }
 
 nav {
-    display: block;
+    display: flex;
     background-color: #f7ef99;
     position: fixed;
     top: 0;
@@ -57,5 +57,7 @@ nav {
 #clicked:target nav {
     display: none;
 }
+
+
 
 
