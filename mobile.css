@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     font-family: "Montserrat", sans-serif;
-    flex-direction: column
+    flex-direction: column;
 }
 .showNav {
     height: 0.8em;
@@ -58,11 +58,4 @@ nav {
     display: none;
 }
 
-form {
-    grid-template-columns: 1fr;
-    row-gap: 1em;
-}
 
-body header:not(.topnav){
-   text-align: center;
-}

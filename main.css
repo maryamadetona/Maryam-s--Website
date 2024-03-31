@@ -62,16 +62,29 @@ nav ul {
 
 form {
     display: inline-block;
-    border: #AA7B62;
     padding: 1em;
+    border: 0.3em solid #F7EF99;
     border-radius: 1em;
 }
-
-button[type="submit"] {
-    grid-column: 2;
-    width: 100%;
+label {
+    display: inline-block;
+    min-width: 6em;
+    text-align: right;
+}
+input, textarea {
+    width: 19em;
+    box-sizing: border-box;
+    border: 0.3em solid #D1E891;
+    margin-bottom: 1em;
 }
 
-body{
-    text-align: center;
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+.button {
+    padding-left: 6em;
+}
+button {
+    margin-left: 0.5em;
 }
