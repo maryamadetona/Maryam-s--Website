@@ -58,4 +58,31 @@ nav {
     display: none;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
+#clicked {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+nav ul li {
+    width: auto;
+    margin-bottom: 0.625em;
+}
+
+.submenu {
+    display: none;
+    background-color: #D1E891;
+    padding-left: 0;
+}
+
+nav ul li:hover .submenu {
+    display: block;
+}
