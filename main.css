@@ -38,7 +38,24 @@ aside {
     color:white ;
     grid-area: aside;
     padding: 1em;
+}
 
+.displaypicture{
+    border-radius: 50%;
+    width: 25em;
+    height: 25em;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bio{
+    text-align: center;
+    display: block;
+}
+
+aside h2{
+    text-align: center;
 }
 
 footer {
@@ -93,3 +110,28 @@ nav > ul > li {
     position: relative;
     width: 100%;
 }
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+div img {
+    width: 100%;
+}
+main div {
+    border: 0.3em solid #5D675B;
+    padding: 2em;
+}
+
+/*div {
+    border: 1px solid #5d675b;
+    text-align: center;
+}
+
+.projectgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}*/
